@@ -1,4 +1,4 @@
-Thedroid web build with Angular
+Thedroid Angular Webapp
 ======================
 Built with @angular/cli
 
