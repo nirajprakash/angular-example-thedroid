@@ -1,0 +1,157 @@
+$app-color-fancymonk: #ce1e42; // #ef4343;
+$app-color-sensify:#d2323d;
+$app-color-sensify-background:#FF8B8B;
+
+$app-color-intugine:#49678B;
+$app-color-intugine-background:#49678B;
+
+
+$app-color-mobile-offize:#1D6A5A;
+$app-color-mobile-offize-accent:#086ED4;
+$app-color-mobile-offize-background:#C3F6E7;
+
+$app-color-pepstudy:#E36A23;
+$app-color-pepstudy-background:#FFAB7A;
+
+$app-color-red: #cc3434;//#ef4343;
+$app-color-blue:#3c82b9;
+$app-color-brown: #8e501d;
+$app-color-purple: #87478c;
+
+.app-color--red {
+    background-color: $app-color-red !important;
+}
+
+.app-color-text--red {
+    color: $app-color-red !important;
+}
+
+.app-red-background {
+    background-color: $app-color-red !important;
+}
+
+
+.app-color--blue {
+    background-color: $app-color-blue !important;
+}
+
+.app-color-text--blue {
+    color: $app-color-blue !important;
+}
+
+.app-blue-background {
+    background-color: $app-color-blue !important;
+}
+
+
+.app-color--brown {
+    background-color: $app-color-brown !important;
+}
+
+.app-color-text--brown {
+    color: $app-color-brown !important;
+}
+
+.app-brown-background {
+    background-color: $app-color-brown !important;
+}
+
+
+
+.app-color--purple {
+    background-color: $app-color-purple !important;
+}
+
+.app-color-text--purple {
+    color: $app-color-purple !important;
+}
+
+.app-purple-background {
+    background-color: $app-color-purple !important;
+}
+
+
+
+.app-color--fancymonk {
+    background-color: $app-color-fancymonk;
+}
+
+.app-color-text--fancymonk {
+    color: $app-color-fancymonk;
+}
+
+.app-fancymonk-background {
+    background-color: #ce1e42 !important;
+}
+
+.app-color--sensify {
+    background-color: $app-color-sensify;
+}
+
+.app-color-text--sensify {
+    color: $app-color-sensify;
+}
+
+.app-background-sensify {
+    background-color: $app-color-sensify-background;
+}
+
+
+
+.app-color--intugine {
+    background-color: $app-color-intugine;
+}
+
+.app-color-text--intugine {
+    color: $app-color-intugine;
+}
+
+.app-background-intugine {
+    background-color: #49678B;
+}
+
+
+.app-color--mobile-offize {
+    background-color: $app-color-mobile-offize;
+}
+
+.app-color-text--mobile-offize {
+    color: $app-color-mobile-offize;
+}
+
+.app-color--mobile-offize-accent {
+    background-color: $app-color-mobile-offize-accent;
+}
+
+.app-color-text--mobile-offize-accent {
+    color: $app-color-mobile-offize-accent;
+}
+
+.app-background-mobile-offize {
+    background-color: $app-color-mobile-offize-background;
+}
+
+.app-color--pepstudy {
+    background-color: $app-color-pepstudy;
+}
+
+.app-color-text--pepstudy {
+    color: $app-color-pepstudy;
+}
+
+// .app-color--pepstudy-accent {
+//     background-color: $app-color-mobile-offize-accent;
+// }
+
+// .app-color-text--pepstudy-accent {
+//     color: $app-color-mobile-offize-accent;
+// }
+
+.app-background-pepstudy {
+    background-color: $app-color-pepstudy-background;
+}
+
+// .app-background-pepstudy {
+//     background-color: #E15E2D;
+// }
+

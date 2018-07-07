@@ -1,0 +1,271 @@
+.top-wall {
+    position: relative;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.quote {
+    p,
+    h1,
+    h6 {
+        margin: 0;
+    }
+    .sec-title {
+        position: relative;
+        .title {
+            position: relative;
+            max-width: 240px;
+            margin: auto;
+        }
+        .title-background {
+            top: 0%;
+            line-height: 2.5em;
+            transform: translate(0, -100%);
+            position: absolute;
+        }
+    }
+    .hr-line {
+        position: relative;
+        height: 1px;
+        width: 120px;
+        .line-red {
+            width: 120px;
+            height: 1px; // transform: translate(0, -50%);
+            // margin: auto;
+            // position: absolute;
+            display: flex;
+            justify-content: center;
+            align-content: center; // vertical-align: middle;
+            stroke-dasharray: 120; //  stroke-dashoffset: 800;
+            animation: draw1 5s linear infinite;
+        }
+        @keyframes draw1 {
+            from {
+                stroke-dashoffset: 60;
+            }
+            to {
+                stroke-dashoffset: 240;
+            }
+        }
+    }
+    .title-bottom {
+        max-width: 240px;
+    }
+    .circle {
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        text-decoration: unset;
+        z-index: 0;
+        box-shadow: 0px 0px 1px 0px rgba(16, 16, 16, .6);
+        animation: disperse 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+        ;
+    }
+    @keyframes disperse {
+        0% {
+            box-shadow: 0 0 0 0 rgba(#2cc87c, .7), 0 0 0 0 rgba(#2cc87c, .7);
+        }
+        40% {
+            box-shadow: 0 0 0 0 rgba(#2cc87c, .5), 0 0 0 0 rgba(#2cc87c, .7);
+        }
+        80% {
+            box-shadow: 0 0 0 0 rgba(#2cc87c, .4), 0 0 0 10px rgba(#2cc87c, 0);
+        }
+        100% {
+            box-shadow: 0 0 0 0 rgba(#2cc87c, .3), 0 0 0 10px rgba(#2cc87c, 0);
+        }
+    }
+}
+
+.cloud-large {
+    position: absolute;
+    width: 30vw;
+    height: 15%;
+    top: 19%;
+    border-radius: 200px;
+    background-color: #fff;
+    box-shadow: 0px 20px 23px -8px rgba($color: #000000, $alpha: 0.1), 0px 2px 4px -2px rgba($color: #000000, $alpha: 0.1);
+    z-index: 1;
+    animation: cloud 9s infinite ease-in-out;
+    animation-delay: -3s;
+    animation-direction: forwards;
+    cursor: pointer;
+}
+
+@keyframes cloud {
+    0% {
+        opacity: 0;
+        transform: translateX(10vw);
+    }
+    20% {
+        opacity: 1;
+    }
+    50% {}
+    95% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(50vw);
+    }
+}
+
+.cloud-medium {
+    position: absolute;
+    top: 14%;
+    width: 25vw;
+    height: 10%;
+    transform: matrix(1, 0, 0, 1, -329, -32);
+    border-radius: 200px;
+    background-color: #FF5A5A;
+    box-shadow: 0px 20px 23px -8px rgba($color: #000000, $alpha: 0.1), 0px 2px 4px -2px rgba($color: #000000, $alpha: 0.1);
+    z-index: 1;
+    animation: cloud-medium 10s infinite ease;
+    animation-delay: -2s;
+    animation-direction: forwards;
+    cursor: pointer;
+}
+
+@keyframes cloud-medium {
+    0% {
+        opacity: 0;
+        transform: translateX(-10vw);
+    }
+    20% {
+        opacity: 1;
+    }
+    50% {}
+    50% {}
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(70vw);
+    }
+}
+
+.cloud-small {
+    position: absolute;
+    width: 15vw;
+    height: 5%;
+    top: 31%;
+    border-radius: 200px;
+    background-color: #75a4de;
+    box-shadow: 0px 20px 23px -8px rgba($color: #000000, $alpha: 0.1), 0px 2px 4px -2px rgba($color: #000000, $alpha: 0.1);
+    z-index: 1;
+    animation: cloud-small 11s infinite linear;
+    animation-delay: -0s;
+    animation-direction: forwards;
+    cursor: pointer;
+}
+
+@keyframes cloud-small {
+    0% {
+        opacity: 0;
+        transform: translateX(20vw);
+    }
+    10% {
+        opacity: 1;
+    }
+    50% {}
+    50% {}
+    95% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(50vw);
+    }
+}
+
+.sun {
+    display: inline-block;
+    position: absolute;
+    width: 60vw;
+    height: 60vw;
+    bottom: -40vw;
+    right: -40vw;
+    transform: scale(1);
+    // background-color: rgba(222, 59, 43, 1);
+    border-radius: 50%;
+    animation: large 5s infinite ease-in-out;
+    animation-delay: -.2s;
+    animation-direction: alternate;
+}
+
+@keyframes large {
+    0% {
+        transform: scale(1);
+        box-shadow: 0px 0px 0px 0px rgba($color: #128824, $alpha: 0.6);
+        background-color: rgba(#2cc87c, 1);
+    }
+    50% {}
+    50% {}
+    75% {}
+    100% {
+        background-color: rgba(242, 50, 93, 1);
+        box-shadow: 6px -4px 23px 0px rgba($color: #b33040, $alpha: 0.6);
+        transform: scale(1.1);
+    }
+}
+
+.venus {
+    display: inline-block;
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    right: -13vw;
+    bottom: -13vw;
+    z-index: 0; // margin-top: 200px;
+    // margin-right: 200px;
+    border-radius: 50%;
+    background-color: #5432b9;
+    box-shadow: 10px 9px 22px -2px rgba($color: #5432b9, $alpha: 0.5);
+    animation: orbit-venus 11s infinite linear;
+    animation-delay: -.2s;
+    animation-direction: forwards;
+}
+
+@keyframes orbit-venus {
+    0% {
+        transform: rotateZ(0deg) translateX(-50vw);
+    }
+    100% {
+        transform: rotateZ(360deg) translateX(-50vw);
+    }
+}
+
+.mercury {
+    display: inline-block;
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    right: -11vw;
+    bottom: -11vw;
+    z-index: 0; // transform: translate(-333px, 250px);
+    border-radius: 50%;
+    background-color: rgb(247, 75, 247);
+    box-shadow: 10px 9px 22px -2px rgba(230, 119, 174, 0.5);
+    animation: orbit-mercury 8s infinite linear;
+    animation-delay: -.2s;
+    animation-direction: forwards;
+}
+
+@keyframes orbit-mercury {
+    0% {
+        transform: rotateZ(0deg) translateX(-35vw);
+    }
+    100% {
+        transform: rotateZ(360deg) translateX(-35vw);
+    }
+}

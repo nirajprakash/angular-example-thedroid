@@ -1,0 +1,75 @@
+h1,
+h6,
+p {
+    margin: 0;
+}
+
+.task-create-container-inner {
+    // width: 264px;
+}
+
+.create-bar {
+    height: auto;
+    overflow: hidden;
+}
+
+.tdw-padding-14-20 {
+    padding: 14px 20px;
+}
+
+// .description{    
+//     width: 232px;
+// }
+hr {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #fbfbfb;
+}
+
+.description {
+    width: 232px;
+}
+
+$resXXL: 1280px;
+$resXL: 1170px;
+$resL: 991px;
+$resM: 768px;
+$resS: 599px;
+$resXS: 500px;
+$resXXS: 435px;
+$resMin: 320px;
+@media screen and (min-width: $resL) {
+    .description {
+        width: 232px;
+    }
+}
+
+@media screen and (max-width: $resL) {
+    .description {
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: $resM) {
+    .create-bar {
+        // height: 10px;
+        min-width: 232px;
+    }
+}
+
+@media screen and (max-width: $resM) {
+    .create-bar {
+        // height: 10px;
+        min-width: unset;
+    }
+    .description {
+        width: 212px;
+    }
+}
+
+@media screen and (max-width: $resS) {
+    .description {
+        width: unset;
+    }
+}

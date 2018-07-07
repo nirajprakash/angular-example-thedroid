@@ -1,0 +1,67 @@
+.explore-btn {
+    z-index: 2;
+    text-decoration: unset;
+    border-radius: 4px;
+    padding: 8px 28px;
+}
+
+.unlink {
+    text-decoration: unset;
+}
+
+.contact {
+    position: relative;
+    .background {
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        .inner {
+            position: relative;
+        }
+        img {
+            height: auto;
+            width: 100%;
+        }
+    }
+}
+
+.agm-map-content {
+    display: none;
+}
+
+.map-card {
+    min-height: 320px;
+}
+
+agm-map {
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    right: 0;
+    top: 0;
+    border-top-right-radius: 4px;
+    width: 120px;
+    height: 240px;
+}
+
+@media (max-width: 599px) {
+    .contact-form {
+        width: unset !important;
+    }
+}
+
+.contact-form {
+    position: relative;
+    width: 320px; //height: 384px;
+}
+
+.circle {
+    width: 40px;
+    display: flex;
+    height: 40px;
+    border-radius: 100%;
+    background: rgba($color: #000000, $alpha: 0.1)
+}

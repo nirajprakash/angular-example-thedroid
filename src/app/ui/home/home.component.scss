@@ -1,0 +1,91 @@
+// * {
+//   max-width:100%;
+//   max-height:100%;
+//   //box-sizing:  border-box;
+// }
+.my-nav {
+    width: 100%;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    z-index: 4;
+    position: fixed;
+}
+
+
+.home {
+    overflow-x: hidden;
+}
+
+// .top-home{
+// 		width: 100%;
+// 		height: 600px;
+// 		background:  #E5E5E5;	
+// }
+
+.services{
+	position: relative;
+	overflow: hidden;
+}
+
+.technology {
+    position: relative;
+    overflow: hidden;
+}
+
+.explore-btn {
+    z-index: 2;
+    text-decoration: unset;
+    border-radius: 4px;
+    padding: 8px 28px;
+}
+
+.footer{
+    background-color: #494949; 
+}
+
+// .top-works{
+// 	position: relative;
+// 	.explore-btn{
+// 		position: absolute;
+// 		top: 100%;
+// 		left: 50%;
+// 		transform: translate(-50%,-50%) perspective(500px)  ;
+// 		width: 200px;
+// 		height: 50px;
+// 		text-align: center;
+// 		line-height: 50px;
+// 		font-size: 20px;
+// 	  /*	text-shadow: 6px 3px 2px rgba(0,0,0,.2);*/
+// 		background: linear-gradient(90deg, #3603ff, #a41ee9);
+// 		color: #fff;
+// 		text-decoration: none;
+// 		border-radius: 25px;
+// 		letter-spacing: 1px;
+// 		transition: .5s;
+// 		overflow: hidden;
+// 		cursor: pointer;
+// 		box-shadow: 4px 7px 23px 2px rgba(0, 0, 0, 0.2);
+// 	  }
+// 	  .explore-btn:hover{
+// 		transform: translate(-50%,-50%) perspective(500px)  ;
+// 		text-shadow: -6px 3px 2px rgba(0,0,0,.2);
+// 	  }
+// 	  .explore-btn:before{
+// 		content: '';
+// 		position: absolute;
+// 		top: 0;
+// 		left:-100%;
+// 		width: 100%;
+// 		height: 100%;
+// 		background: linear-gradient(90deg, transparent, #fff ,transparent);
+// 		transition: .6s;
+// 	  }
+// 	  .explore-btn:hover:before{
+// 		left: 100%;
+// 	  }
+// }
+// .need-help{
+// 	background: linear-gradient(to right, 
+// 	#EDEDED 50%,
+// 	#E12424 50%, #C12424 70%
+// ); 
+// }

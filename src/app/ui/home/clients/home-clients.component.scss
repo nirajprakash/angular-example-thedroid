@@ -1,0 +1,49 @@
+.client-desc-card {
+    padding: 20px 28px;
+}
+
+.client-title {
+    min-width: 88px;
+    span {
+        //text-shadow: 1px 2px 0 #d6d6d6;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.avatar {
+    width: 56px;
+    img {
+        height: 32px;
+        width: auto;
+        max-width: 100%;
+    }
+}
+
+.hover-card-up-intugine {
+    box-shadow: 0 8px 24px -12px rgba($color: #5F8Ab1, $alpha: 0.6), 0 20px 28px -10px rgba($color: #86A3F4, $alpha: 0.3); // transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    // &:hover{
+    //     box-shadow: 0 10px 28px rgba(134, 163, 201, 0.3), 0 10px 10px rgba(131, 158, 192, 0.3);
+    // }
+}
+
+.hover-card-up-pepstudy {
+    box-shadow: 0 0px 24px -12px rgba($color: #E2A683, $alpha: 0.5), 0 20px 28px -10px rgba($color: #FF975B, $alpha: 0.3); // transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    // &:hover{
+    //     box-shadow: 0 10px 28px rgb(250, 169, 122), 0 10px 10px rgb(255, 151, 91);
+    // }
+}
+
+.hover-card-up-signzy {
+    box-shadow: 0 0px 24px -12px rgba($color: #AAE0F1, $alpha: 0.6), 0 20px 28px -10px rgba($color: #AAE1E8, $alpha: 0.4); // transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    // &:hover{
+    //     box-shadow: 0 10px 28px rgb(188, 225, 232), 0 10px 10px rgb(188, 225, 232);
+    // }
+}
+
+.hover-card-up-xpedi {
+    box-shadow: 0 0px 24px -12px rgba($color: #93BB92, $alpha: 0.6), 0 20px 28px -10px rgba($color: #93BB92, $alpha: 0.4); // transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    // &:hover{
+    //     box-shadow: 0 10px 28px rgb(147, 185, 146), 0 10px 10px  rgb(147, 185, 146);
+    // }
+}

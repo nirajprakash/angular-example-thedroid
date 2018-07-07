@@ -1,0 +1,54 @@
+.tdw-cursor-pointer{
+    cursor: pointer;
+}
+
+.tdw-cursor-default{
+    cursor: default;
+}
+.tdw-letter-spacing{
+    letter-spacing: -1px;
+}
+
+.tdw-box-size-border-box {
+    box-sizing: border-box;
+}
+
+.tdw-letter-opacity{
+    opacity: .6;
+}
+.tdw-text-shadow-normal{
+    text-shadow: 0px 2px 3px rgba(0,0,0,0.1);
+}
+.tdw-text-shadow-large{
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                    0px 8px 13px rgba(0,0,0,0.1),
+                    0px 18px 23px rgba(0,0,0,0.1);
+}
+.tdw-overflow-visible{
+    overflow: visible !important;
+}
+
+.tdw-overflow-hidden{
+    overflow: hidden;
+}
+.tdw-left-zero{
+    left: 0% !important;
+}
+.tdw-border-radius-56{
+    border-radius: 56px;
+}
+
+.tdw-border-4{
+    border-radius: 4px;
+
+}
+
+.tdw-border-2 {
+    border-radius: 2px;
+}
+
+.tdw-line{
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.1);
+}

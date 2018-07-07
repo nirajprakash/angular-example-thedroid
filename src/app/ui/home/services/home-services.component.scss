@@ -1,0 +1,39 @@
+p,
+h1,
+h6 {
+    margin: 0;
+}
+
+.services-container {
+    .sec-title {
+        position: relative;
+        .title {
+            top: 25%;
+            right: 0%;
+            transform: translate(0, 50%);
+            margin: auto;
+            position: absolute;
+        }
+        .title-background {
+            z-index: -1;
+            font-size: 50px;
+        }
+    }
+    .service-card-container{
+        display: flex;
+        
+    }
+    .service-card {
+        max-width: 254px;
+    }
+    .service-icon {
+        position: absolute;
+        transform: translate(-61px, -59px);
+        box-shadow: 0px 0px 6px 0px #98c598;
+        padding: 14px 20px;
+        mdc-icon {
+            
+        }
+
+    }
+}

@@ -1,0 +1,63 @@
+<!-- <mdc-toolbar class="demo-toolbar--primary" [fixed]="isFixed" [fixedAdjustElement]="container">
+    <mdc-toolbar-row>
+        <mdc-toolbar-section [alignStart]="true">
+            <button class="material-icons mdc-color-text--grey-800" material-icon mdc-toolbar-menu-icon (click)="toggleDrawer();" fxShow>menu</button>
+            <a class="demo-toolbar-logo" button mdc-toolbar-menu-icon fxHide fxShow.gt-sm="true" [routerLink]="['home']">
+                <div class="logo-container">
+                   
+                    <span class="tdw-font-18 mdc-color-text--grey-800">The </span>
+                    <span class="tdw-padding-right-12 tdw-font-20 tdw-font-normal mdc-color-text--grey-800">Droid</span>
+                </div>
+
+            </a>
+            <div class="divider-verticle mdc-color--grey-400"></div>
+            <p class="router-end tdw-font-18 tdw-font-bold mdc-theme--primary tdw-margin-auto-vertical">{{_mRoute}}</p>
+            <mdc-toolbar-title>
+
+               
+            </mdc-toolbar-title>
+        </mdc-toolbar-section>
+
+        <mdc-toolbar-section [alignEnd]="true" [shrinkToFit]="true">
+          
+            <a mdc-toolbar-icon class="tdw-margin-auto">
+                <span class="tdw-font-12 mdc-color-text--grey-800">HOME</span>
+            </a>
+            <a mdc-toolbar-icon class="tdw-margin-auto">
+                <span class="tdw-font-12 mdc-color-text--grey-800">TECHNOLOGY</span>
+            </a>
+            <a mdc-toolbar-icon class="tdw-margin-auto">
+                <span class="tdw-font-12 mdc-color-text--grey-800">SERVICE</span>
+            </a>
+            <a mdc-toolbar-icon class="tdw-margin-auto">
+                <span class="tdw-font-12 mdc-color-text--grey-800">CONTACTS</span>
+            </a>
+            <a mdc-toolbar-icon>
+                <span class="tdw-btn tdw-btn-ripple tdw-font-12 mdc-color-text--white">PROJECTS</span>
+              
+            </a>
+        </mdc-toolbar-section>
+    </mdc-toolbar-row>
+</mdc-toolbar> -->
+
+
+
+<div class="container" #container>
+    <mdc-drawer [fixed]="true" fxHide class="mdc-color--white tdw-card-decent">
+        <mdc-drawer-content>
+            <!-- <mdc-list-group>
+                <mdc-list>
+                   <mdc-list-item class="tdw-font-light" *ngFor="let navItem of _vmNavItems.dashboard" [routerLink]="[navItem.route]">
+                        <mdc-icon mdc-list-item-start mdc-list-item-graphic [ngClass]="[navItem.color]">{{navItem.icon}}</mdc-icon>{{navItem.name}}
+                    </mdc-list-item>
+
+
+                </mdc-list>
+            </mdc-list-group> -->
+        </mdc-drawer-content>
+    </mdc-drawer>
+
+    <div class="demo-content">
+        <router-outlet></router-outlet>
+    </div>
+</div>

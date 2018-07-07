@@ -1,0 +1,35 @@
+<div class="tdw-layout-container-large">
+	<div ngClass.lt-md="tdw-padding-0" ngClass.gt-sm="tdw-padding-36"></div>
+	<div class="tdw-position-relative tdw-card-thin tdw-border-4 tdw-padding-20">
+		<!-- <div fxHide.xs="true"  class="tdw-position-absolute mdc-theme--primary-bg background"></div> -->
+		<div class="tdw-position-relative tdw-padding-24" fxLayout="column" fxLayout.gt-xs="row" fxLayoutAlign.gt-xs="center stretch">
+			<div fxFlex.gt-xs="50" fxFlex.xs="none" fxLayout="column">
+				<div class="">
+					<span class="tdw-font-22 mdc-theme--primary">Contact&nbsp;</span>
+					<span class="tdw-font-18 tdw-font-normal mdc-color-text--grey-700">Us</span>
+				</div>
+				<mdc-text-field #outlined [outline]="true" label="Name" dense="true"></mdc-text-field>
+				<mdc-text-field type="email" #outlined [outline]="true" label="Your e-mail" dense="true"></mdc-text-field>
+				<mdc-text-field #outlined [outline]="true" label="Phone Number" dense="true"></mdc-text-field>
+
+				<mdc-textarea label="Type your message here" [fullwidth]="true"></mdc-textarea>
+
+				<div fxLayout="row">
+					<div fxFlex></div>
+					<a class="explore-btn tdw-hover-button-primary tdw-font-14 tdw-font-comfortaa">Submit</a>
+
+				</div>
+			</div>
+			<div fxHide.gt-xs="true" class="tdw-padding-12"></div>
+			<div fxFlex.xs="none" fxFlex.gt-xs="50%" fxLayout="column" ngClass.gt-xs="tdw-padding-left-20">
+				<div fxFlex class="map-card tdw-hover-move-top tdw-hover-card-up">
+					<agm-map [zoom]="16" [styles]="_mMapStyle" [latitude]="lat" [longitude]="lng" [scrollwheel]="false">
+						<agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+					</agm-map>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tdw-padding-36"></div>
+
+</div>

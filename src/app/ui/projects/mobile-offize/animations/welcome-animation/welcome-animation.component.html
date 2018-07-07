@@ -1,0 +1,28 @@
+<div class="tdw-layout-content">
+    <div class="" fxLayout="row" fxLayout.xs="column" fxLayoutAlign.gt-sm="start center">
+        <div class="description mdc-color--white tdw-padding-36 tdw-card-up">
+            <div class="tdw-padding-12"></div>
+            <p class="tdw-padding-v-24 tdw-font-20 tdw-font-bold tdw-text-shadow-normal tdw-text-align-left">Welcome Animation</p>
+            <div class="tdw-padding-12"></div>
+            <span class="mdc-color-text--grey-600 tdw-font-open-sans">Ease Transition for revealing views</span>
+            <div class="tdw-padding-24"></div>
+        </div>
+        <div class="tdw-padding-v-12"></div>
+        <div class="tdw-padding-h-12"></div>
+        <div fxFlex.gt-sm fxFlex.lt-md="none"></div>
+        <div fxFlex.gt-xs fxFlex.xs="none" fxLayout="column" fxLayoutAlign.xs="start center" fxLayoutAlign.lt-md="center end">
+            <div class="video-container">
+                <vg-player>
+                    <vg-overlay-play ></vg-overlay-play>
+                    <!-- <vg-buffering></vg-buffering> -->
+                    <!-- <vg-controls [vgAutohide]="true"></vg-controls> -->
+                    <video [vgMedia]="media" #media  preload="auto" controls>
+                        <source src="https://firebasestorage.googleapis.com/v0/b/thedroid-835ee.appspot.com/o/app-develop%2Fmob-final.mp4?alt=media&token=7be34c67-a0c8-4b5b-a320-a5a93bde25e5"
+                            type="video/mp4">
+                    </video>
+                </vg-player>
+            </div>
+        </div>
+    </div>
+
+</div>

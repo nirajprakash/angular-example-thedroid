@@ -1,0 +1,110 @@
+.circle-left-big {
+    display: inline-block;
+    position: relative;
+    width: 650px;
+    height: 650px;
+    transform: matrix(1, 0, 0, 1, -130, 8);
+    border-radius: 50%;
+    background-color: #F93939;
+    box-shadow: 0px 0px 40px 00px rgba($color: #992929, $alpha: 0.5);
+    z-index: 3;
+    animation: left-big 3.3s infinite ease-in-out;
+    animation-delay: .2s;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+
+@keyframes left-big {
+    0% {
+        transform: matrix(1, 0, 0, 1, -130, 8);
+    }
+    100% {
+        transform: matrix(1, 0, 0, 1, -70, 8);
+    }
+}
+
+.circle-left:hover {
+    color: rgba(0, 0, 0, 1.0);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 1.0);
+}
+
+span,
+p {
+    position: relative;
+    top: 33%;
+    margin-left: 25%;
+    color: white;
+}
+
+.circle-left-small {
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    transform: translate(-455px, 272px);
+    border-radius: 50%;
+    background-color: #FF6A6A;
+    box-shadow: 0px 0px 40px 00px rgba($color: #592020, $alpha: 0.5);
+    animation: left-small 4s infinite ease-in;
+    animation-delay: .3s;
+    animation-direction: alternate;
+    z-index: 2;
+}
+
+@keyframes left-small {
+    0% {
+        transform: translate(-455px, 272px);
+    }
+    50% {
+        transform: translate(-352px, 258px);
+    }
+    100% {
+        transform: translate(-352px, 264px);
+    }
+}
+
+.circle-right-small {
+    position: relative;
+    width: 416px;
+    height: 416px;
+    transform: matrix(1, 0, 0, 1, -752, 0);
+    border-radius: 50%;
+    background-color: #9B0303;
+    box-shadow: 0px 0px 40px 00px rgba($color: #591010, $alpha: 0.4);
+    animation: right-small 3s infinite ease-in-out;
+    animation-delay: .2s;
+    animation-direction: alternate;
+    z-index: 2;
+}
+
+@keyframes right-small {
+    0% {
+        transform: matrix(1, 0, 0, 1, -752, 0);
+    }
+    100% {
+        transform: matrix(1, 0, 0, 1, -752, 198);
+    }
+}
+
+.circle-right-big {
+    position: relative;
+    width: 756px;
+    height: 756px;
+    transform: matrix(1, 0, 0, 1, -604, 0);
+    border-radius: 50%;
+    background-color: #5f0e0e;
+    box-shadow: 0px 0px 100px 00px rgba($color: #230505, $alpha: 0.4);
+    animation: right-big 3s infinite ease-in-out;
+    animation-delay: .2s;
+    animation-direction: alternate;
+    z-index: 1;
+}
+
+@keyframes right-big {
+    0% {
+        transform: matrix(1, 0, 0, 1, -604, 0);
+    }
+    100% {
+        transform: matrix(1, 0, 0, 1, -554, 50);
+    }
+}

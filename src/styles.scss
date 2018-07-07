@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular-mdc/theme/material-components-web/theme/_color-palette";
+$mdc-theme-primary: #2cc87c;//#ef4343;
+$mdc-theme-secondary: #479Ab8;
+$mdc-theme-background: white;
+@import "~@angular-mdc/theme/material.scss";
+@import "~videogular2/fonts/videogular.css";
+html {
+    height: 100%;
+  }
+  html::-webkit-scrollbar {
+    background: transparent;
+    width: 8px;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+  background: #909090;
+  }
+
+  *::-webkit-scrollbar {
+    background: transparent;
+    width: 8px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+  background: #909090;
+  }
+
+  *{
+    // box-sizing:  border-box;
+  }
+
+  
+  body {
+    height: 100%;
+    margin: 0;
+    // margin-left: 0 !important;
+    // margin-right: 0 !important;
+    background: $mdc-theme-background;
+  }
+
+@import "theme/index";

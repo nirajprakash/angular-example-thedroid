@@ -1,0 +1,93 @@
+<div class="contact tdw-position-relative">
+	<div class="background">
+		<div class="inner">
+			<img src='assets/img/world_map.svg' />
+
+		</div>
+	</div>
+
+	<div class="tdw-layout-container-large tdw-position-relative">
+		<div class="tdw-padding-16"></div>
+		<div class="tdw-layout-content" fxLayout.xs="column" fxLayout="row" fxLayoutAlign="start stretch">
+			<div fxFlex class="send-us-container  tdw-padding-v-20 ">
+
+				<form [formGroup]="_mFormGroup" id="send-message-form" (ngSubmit)="onSubmit()">
+					<div class="send-message-form tdw-card-up tdw-padding-28 tdw-border-4 mdc-color--white" fxLayout="column">
+						<div class=""></div>
+						<div class="">
+							<span class="tdw-font-20 mdc-theme--primary">Send&nbsp;</span>
+							<span class="tdw-font-18 tdw-font-normal mdc-color-text--grey-700">Message</span>
+						</div>
+						<div fxLayout="row wrap" fxLayout.lt-md="column">
+							<mdc-text-field #outlined [outline]="true" label="Name" dense="true" formControlName="name"></mdc-text-field>
+							<mdc-text-field fxFlex.gt-md fxFlex.lt-md="none" type="email" #outlined [outline]="true" label="Your e-mail" dense="true"  formControlName="email"></mdc-text-field>
+						</div>
+						<mdc-text-field #outlined [outline]="true" label="Phone Number" dense="true" formControlName="number"></mdc-text-field>
+						<div class="tdw-padding-8"></div>
+
+
+						<mdc-textarea label="Type your message here" [fullwidth]="true"  formControlName="message"></mdc-textarea>
+
+						<div fxLayout="row">
+							<div fxFlex></div>
+							<button mdc-button type="submit" form="send-message-form" class="explore-btn tdw-hover-button-primary tdw-font-14 tdw-font-comfortaa">Submit</button>
+
+						</div>
+					</div>
+				</form>
+
+			</div>
+
+			<div class="contact-form tdw-card-up-large tdw-padding-36 mdc-theme--primary-bg" fxLayout="column">
+				<div class="">
+					<span class="tdw-font-22 mdc-color-text--white">Contact&nbsp;</span>
+					<span class="tdw-font-18 tdw-font-normal mdc-color-text--white">Us</span>
+					<div class="tdw-padding-16"> </div>
+				</div>
+				<div fxFlex.gt-xs fxFlex.xs="none" fxLayout="column" fxLayoutAlign="center start">
+					<div fxLayout="row" fxLayoutAlign="start center">
+						<div class="circle ">
+							<mdc-icon class="tdw-margin-auto tdw-font-20 mdc-color-text--white">mail_outline</mdc-icon>
+						</div>
+						<div class="tdw-padding-16"></div>
+						<span class="mdc-color-text--white tdw-cursor-pointer" clipboard="{{_mContactMail}}" (clipboardCopy)="onCopied(_mContactMail)">{{_mContactMail}}</span>
+					</div>
+
+					<div class="tdw-padding-16"></div>
+					<div fxLayout="row" fxLayoutAlign="start center">
+						<div class="circle ">
+							<mdc-icon class="tdw-margin-auto tdw-font-20 mdc-color-text--white">phone</mdc-icon>
+						</div>
+						<div class="tdw-padding-16"></div>
+						<span class="mdc-color-text--white tdw-cursor-pointer" clipboard="{{_mContactNumber}}" (clipboardCopy)="onCopied(_mContactNumber)">+91-973 822 4723</span>
+					</div>
+					<div class="tdw-padding-16"></div>
+
+					<div fxLayout="row" fxLayoutAlign="start center">
+						<div class="circle ">
+							<i class="tdw-font-20 socialicon icon-linkedin tdw-margin-auto mdc-color-text--white"></i>
+
+						</div>
+						<div class="tdw-padding-16"></div>
+						<a href="https://www.linkedin.com/in/ajaykumarsagar/" target="_blank" class="unlink mdc-color-text--white">Ajay</a>
+					</div>
+					<div class="tdw-padding-16"></div>
+
+					<div fxLayout="row" fxLayoutAlign="start center">
+						<div class="circle ">
+							<i class="tdw-font-20 socialicon icon-linkedin tdw-margin-auto mdc-color-text--white"></i>
+
+						</div>
+						<div class="tdw-padding-16"></div>
+						<a href="https://www.linkedin.com/in/niraj-prakash-3317674b/" target="_blank" class="unlink mdc-color-text--white">Niraj</a>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="tdw-padding-36"></div>
+
+	</div>
+</div>

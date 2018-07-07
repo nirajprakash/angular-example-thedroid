@@ -1,0 +1,334 @@
+.tagline {
+    padding: 0px 56px 24px 0px;
+}
+
+.top-container {
+    .top-cover-white {
+        width: 100vw;
+        height: 100%;
+        top: 0;
+        left: 50%; // background-color: white;
+    }
+    .top-cover {
+        width: 100vw;
+        height: 100%;
+        top: 0;
+        right: 50%;
+        background-color: white; // background: #a0a0a0 url('../../../../assets/img/black-and-white-board-boardroom-260689.jpg') center center no-repeat;
+        // background-size: cover;
+    } // .top-symbols{
+    //     max-width: ;
+    // }
+    .content-box {
+        width: 70%;
+    }
+    .content-area {
+        z-index: 1; // max-width: 340px;
+    }
+    .box {
+        max-width: 200px;
+    }
+    .top-symbols {
+        // max-width: 364px;
+        img {
+            position: relative;
+            max-width: 100%;
+            width: auto;
+            height: auto;
+            z-index: 1;
+            max-height: 100%;
+        }
+    }
+    .frame {
+        max-width: 400px;
+    }
+    @media (max-width: 481px) {
+        .frame {
+            max-width: unset;
+        }
+        .top-cover-white {
+            left: unset;
+        }
+    }
+}
+
+// .top-container {
+//     .background {
+//         top: 0;
+//         left: 0;
+//         width: 100%;
+//         background-image: linear-gradient( to right, white, white 50%, #FF8B8B 50%, #FF8B8B 100%);
+//         height: 100%;
+//     }
+//     .top-content {
+//         z-index: 1;
+//         position: relative;
+//     }
+//     .top-symbols {
+//         width: 300px;
+//         text-align: center; // overflow: hidden;
+//         // width: 256px;
+//         // height: 400px;
+//         img {
+//             max-width: 100%;
+//             width: auto;
+//             height: auto;
+//             max-height: 100%;
+//         }
+//     }
+//     .sensify-project-desc {
+//         position: relative;
+//         width: 256px;
+//         text-align: center;
+//         img {
+//             position: relative;
+//             max-width: 100%;
+//             width: auto;
+//             height: auto;
+//             z-index: 1;
+//             max-height: 100%;
+//         } // .background {
+//         //     z-index: unset;
+//         // }
+//     }
+// }
+p,
+h1,
+h2,
+h6 {
+    margin: 0;
+}
+
+.guideline {
+    .sec-title {
+        position: relative;
+        .title {
+            position: relative;
+            margin: auto;
+        }
+        .title-background {
+            top: 0%;
+            line-height: 2.5em;
+            transform: translate(-2%, 130%);
+            position: absolute;
+        }
+    }
+    .color-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .square {
+        width: 32px;
+        height: 32px;
+        border-radius: 4px;
+        box-shadow: 1px 2px 2px 0px #d6d6d6;
+    }
+}
+
+.screens {
+    .sensify-home {
+        position: relative;
+        width: 242px;
+        height: 596px;
+        img {
+            position: relative;
+            max-width: 100%;
+            width: auto;
+            height: auto;
+            max-height: 100%;
+        }
+    }
+    .sensify-plots,
+    .sensify-sensor,
+    .sensify-services {
+        p {
+            margin: 0;
+            padding: 0;
+        }
+        position: relative;
+        max-width: 242px;
+        max-height: 430px;
+        text-align: center;
+        img {
+            position: relative;
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: 1;
+        }
+    }
+    .hr1 {
+        overflow: visible;
+        position: absolute;
+        transform: translate(0%, -35%);
+        top: 35%;
+        height: 1px;
+        width: 450px;
+        text-align: right;
+        background-color: red;
+        z-index: -1;
+        .title {
+            position: relative;
+            top: -24px;
+            left: -40px;
+        }
+    }
+    .hr1:after {
+        content: "\25CE";
+        display: inline-block;
+        position: relative;
+        top: -36px;
+        left: 18px; // background: rgb(255,255,255); 
+        font-size: 1.5em;
+        color: red;
+        z-index: 0;
+    }
+    .hr2 {
+        overflow: visible;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 45%;
+        height: 1px;
+        width: 450px;
+        text-align: left;
+        background-color: red;
+        z-index: -1;
+        .title {
+            position: relative;
+            top: -24px;
+            left: 60px;
+        }
+    }
+    .hr2:after {
+        content: "\25CE";
+        display: inline-block;
+        position: relative;
+        top: -36px;
+        left: -19px; // background: rgb(255,255,255); 
+        font-size: 1.5em;
+        color: red;
+        z-index: 0;
+    }
+    @media (max-width: 481px) {
+        .sensify-home {
+            width: 196px;
+            height: 486px;
+        }
+        .hr1 {
+            width: 300px;
+        }
+        .sensify-home,
+        .sensify-sensor {
+            .title {
+                left: -6px;
+                font-size: 14px;
+            }
+        }
+        .sensify-plots,
+        .sensify-sensor,
+        .sensify-services {
+            width: 188px;
+            height: 486px;
+        }
+        .hr2 {
+            width: 240px;
+        }
+        .sensify-plots,
+        .sensify-services {
+            .title {
+                left: 24px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.icon-design {
+    .icons {
+        position: relative;
+        width: 64px;
+        height: 30px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            position: relative;
+            max-width: 100%;
+            width: auto;
+            height: auto; // z-index: 1;
+            max-height: 100%;
+        }
+    }
+}
+
+.icon-view {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden; // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    img {
+        position: relative;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        z-index: 1;
+        max-height: 100%;
+    }
+}
+
+$resXXL: 1280px;
+$resXL: 1170px;
+$resL: 991px;
+$resM: 768px;
+$resS: 660px;
+$resXS: 500px;
+$resXXS: 435px;
+$resMin: 320px;
+// @media screen and (max-width: $resL) {
+//     .app-img {
+//         width: 464px;
+//         height: 464px; // border-radius: 464px;
+//     }
+// }
+@media screen and (max-width: $resL) {}
+
+@media screen and (max-width: $resM) {
+    .icon-view {
+        position: relative;
+        width: 120px;
+        height: 120px; // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        img {
+            position: relative;
+            max-width: 100%;
+            width: auto;
+            height: auto;
+            z-index: 1;
+            max-height: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: $resXS) {
+    .icon-view {
+        position: relative;
+        width: 80px;
+        height: 80px; // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        img {
+            position: relative;
+            max-width: 100%;
+            width: auto;
+            height: auto;
+            z-index: 1;
+            max-height: 100%;
+        }
+    }
+}

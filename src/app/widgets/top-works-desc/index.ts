@@ -1,0 +1,1 @@
+export * from  "./widget-top-works-desc.component";

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://thedroid.io/</loc>
+  </url>
+  <url>
+    <loc>https://thedroid.io/about</loc>
+  </url>
+ <url>
+    <loc>https://thedroid.io/listing</loc>
+  </url> 
+  <url>
+    <loc>https://thedroid.io/projects/mobile-offize</loc>
+  </url>
+  <url>
+    <loc>https://thedroid.io/projects/pepstudy</loc>
+  </url>
+  <url>
+    <loc>https://thedroid.io/projects/sensify</loc>
+  </url>
+</urlset>

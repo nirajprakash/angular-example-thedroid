@@ -1,0 +1,67 @@
+<div class="listing-mobile" fxLayout="column">
+		<div ngClass.lt-md="tdw-padding-20" ngClass.gt-sm="tdw-padding-36"></div>
+
+	<div class="tdw-layout-container-large">
+
+		<div fxLayout.gt-xs="row wrap" fxLayout.xs="column" fxLayoutAlign.gt-xs="start center" fxLayoutAlign.xs="start stretch">
+			<div fxFlexOrder.lt-sm="2" [ngClass]="_mClassCircle1" class="tdw-margin-auto app-img tdw-position-relative tdw-margin-h-28 tdw-text-align-center tdw-card-up-large">
+
+				<div [ngClass]="_mClassCircle2" class="background tdw-position-absolute tdw-card-up"> </div>
+				<img class="tdw-position-relative" src="{{_mImagePath}}" />
+			</div>
+
+			<div fxFlex.gt-xs fxHide.xs="true" fxFlexOrder.lt-sm="1"></div>
+			<div class="project-desc-card">
+
+				<!-- <div class="tdw-padding-v-8"></div> -->
+
+				<div class="sec-title tdw-position-relative">
+					<div class="title tdw-position-absolute">
+						<h6 class="title-shadow tdw-font-medium tdw-font-20">{{_mProjectTitle}}</h6>
+					</div>
+					<div class="title-background tdw-position-relative">
+						<h1 class="tdw-font-56 tdw-font-Roboto mdc-color-text--grey-100 tdw-font-bold">{{_mProjectWord}}</h1>
+					</div>
+				</div>
+				<div class="detail">
+					<p class="tdw-padding-v-4 tdw-font-16 mdc-color-text--grey-500">{{_mProjectDetail}}</p>
+					<div fxHide.xs="true" class="tdw-padding-12"></div>
+					<a *ngIf="_mAppUrl" fxHide.xs="true" class="tdw-padding-v-12" href="{{_mAppUrl}}" target="_blank">
+						<img class="play-btn" src="assets/img/google-play-badge.png" />
+
+					</a>
+
+					<div fxHide.xs="true" class="" fxLayout="row" fxLayoutGap="16px" fxLayoutAlign="start center">
+						<img src="{{_mIconPath}}" class="tdw-avatar-40" />
+						<a *ngIf="_mLink" href="{{_mLink}}" [ngClass]="[_mBtnBackgroundColor]" mdc-button [raised]="true" class="tdw-font-14">Know Story</a>
+						<div class="tdw-padding-4"></div>
+
+					</div>
+					<div class="tdw-padding-v-12"></div>
+
+
+				</div>
+			</div>
+			<div class="project-desc-card" fxFlexOrder="3" fxHide.gt-xs="true" fxLayout="column">
+				<div class="tdw-padding-4"></div>
+				<a *ngIf="_mAppUrl" class="tdw-padding-v-12" href="{{_mAppUrl}}" target="_blank">
+					
+					<img class="play-btn" src="assets/img/google-play-badge.png" />
+
+				</a>
+
+				<div class="" fxLayout="row" fxLayoutGap="16px" fxLayoutAlign="start center">
+					<img src="{{_mIconPath}}" class="tdw-avatar-40" />
+					<a *ngIf="_mLink" href="{{_mLink}}" [ngClass]="[_mBtnBackgroundColor]" mdc-button [raised]="true" class="tdw-font-14">Know Story</a>
+					<div class="tdw-padding-4"></div>
+
+				</div>
+
+			</div>
+			<!-- <div class="app-container"> -->
+
+		</div>
+	</div>
+	<div class="tdw-padding-20"></div>
+
+</div>

@@ -1,0 +1,172 @@
+
+// .tdw-font-Sedgwick-Ave{
+//     font-family: $font-Sedgwick-Ave;
+// }
+.tdw-font-rubik{
+    font-family: $font-rubik;
+}
+.tdw-font-roboto-mono{
+    font-family: $font-roboto-mono;
+}
+.tdw-font-helvetica-neue{
+    font-family: $font-helvetica-neue;
+}
+.tdw-font-avenir{
+    font-family: $font-avenir;
+}
+
+//  .tdw-font-Roboto{
+//     font-family: $font-Roboto;
+// }
+.tdw-font-noto-serif{
+    font-family: $font-noto-serif;
+}
+.tdw-font-open-sans{
+    font-family: $font-open-sans;
+}
+.tdw-font-comfortaa{
+    font-family: $font-comfortaa;
+}
+
+
+.tdw-font-work-sans{
+    font-family: $font-work-sans;
+}
+
+.tdw-font-thin{
+    font-weight: $font-thin;
+}
+.tdw-font-lightest{
+    font-weight: $font-lightest;
+}
+.tdw-font-light{
+    font-weight: $font-light;
+}
+
+.tdw-font-medium{
+    font-weight: $font-medium;
+}
+.tdw-font-normal{
+    font-weight: $font-normal;
+}
+.tdw-font-bold{
+    font-weight: $font-bold;
+}
+
+.tdw-font-bolder{
+    font-weight: $font-bolder;
+}
+.tdw-font-106{
+    font-size: $font-106;
+}
+
+.tdw-font-64{
+    font-size: 64px;
+}
+
+.tdw-font-56{
+    font-size: 56px;
+}
+
+.tdw-font-48{
+    font-size: $font-48;
+}
+.tdw-font-40{
+    font-size: $font-40;
+}
+.tdw-font-38{
+    font-size: $font-38;
+}
+.tdw-font-36{
+    font-size: $font-36;
+}
+.tdw-font-34{
+    font-size: $font-34;
+}
+.tdw-font-32{
+    font-size: $font-32;
+}
+.tdw-font-30{
+    font-size: $font-30;
+}
+.tdw-font-28{
+    font-size: $font-28;
+}
+.tdw-font-26{
+    font-size: $font-26;
+ }
+
+
+.tdw-font-24{
+    font-size: $font-24;
+ }
+
+ .tdw-font-22{
+    font-size: $font-22;
+ }
+
+.tdw-font-20{
+    font-size: $font-20;
+ }
+
+.tdw-font-18{
+    font-size: $font-18;
+ }
+
+.tdw-font-16{
+    font-size: $font-16;
+ }
+
+.tdw-font-14{
+    font-size: $font-14;
+ }
+
+ .tdw-font-13{
+    font-size: $font-13;
+ }
+.tdw-font-12{
+    font-size: $font-12;
+ }
+ .tdw-font-11{
+    font-size: $font-11;
+ }
+ .tdw-font-10{
+    font-size: $font-10;
+ }
+ .tdw-font-9{
+    font-size: $font-9;
+ }
+ .tdw-font-8{
+    font-size: $font-8;
+ }
+ .tdw-font-7{
+        font-size: $font-7;
+}
+ .tdw-font-6{
+    font-size: $font-6;
+ }
+
+
+ .tdw-font-tab{
+font-size: $font-12;
+ }
+
+
+@media (max-width: $resM) {
+ .tdw-font-tab{
+     font-size: $font-10;
+ }
+}
+
+@media (max-width: $resS) {
+ .tdw-font-tab{
+     font-size: $font-8;
+ }
+}
+
+// p,h6,h4,h5,span,a,h3,h2{
+//  font-family: $font-Roboto;
+// }
+p,h6,h4,h5,span,a,h3,h2,div,h1{
+    font-family: $font-work-sans;
+   }

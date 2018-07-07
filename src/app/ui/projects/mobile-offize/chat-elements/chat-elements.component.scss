@@ -1,0 +1,94 @@
+h1,
+h6,
+p {
+    margin: 0;
+}
+
+.tdw-padding-14-20 {
+    padding: 14px 20px;
+}
+
+.description {
+    width: 232px;
+}
+
+.chat-container {
+    max-width: 338px;
+    height: 326px;
+}
+
+.chat-bubble-left {
+    width: 96px;
+    height: auto;
+    padding: 8px 12px;
+    border-radius: 0px 10px 10px 10px;
+}
+
+.chat-bubble-right {
+    width: 116px;
+    height: auto;
+    padding: 8px 12px;
+    border-radius: 10px 0px 10px 10px;
+}
+
+.message-box {
+    max-width: 272px;
+    height: 46px;
+}
+
+.circle {
+    width: 46px;
+    height: 46px;
+    justify-content: center;
+}
+
+.description {
+    width: 232px;
+}
+
+$resXXL: 1280px;
+$resXL: 1170px;
+$resL: 991px;
+$resM: 768px;
+$resS: 599px;
+$resXS: 500px;
+$resXXS: 435px;
+$resMin: 320px;
+@media screen and (min-width: $resL) {
+    .description {
+        width: 232px;
+    }
+}
+
+@media screen and (max-width: $resL) {
+    .description {
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: $resM) {
+    .chat-container {
+        // height: 10px;
+        min-width: 300px;
+    }
+}
+
+@media screen and (max-width: $resM) {
+    .chat-container {
+        // height: 10px;
+        min-width: unset;
+    }
+    .description {
+        width: 212px;
+    }
+}
+
+@media screen and (max-width: $resS) {
+    .description {
+        width: unset;
+    }
+    .chat-container {
+        // height: 10px;
+        min-width: 300px;
+    }
+}

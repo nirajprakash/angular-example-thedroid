@@ -1,0 +1,42 @@
+p,
+h3 {
+    margin: 0;
+}
+
+.content {
+    .quote {
+        max-width: 500px;
+    }
+    .content-card {
+        max-width:340px;
+        margin: auto;
+        .circle {
+            display: flex;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            flex-direction: column;
+            justify-content: center;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            align-items: center;
+            vertical-align: middle;
+        }
+        .service-1 {
+            background: #E52E2E;
+            box-shadow: 3px 6px 12px 0 #ed9d9d;
+        }
+        .service-2 {
+            background: #2EE58A;
+            box-shadow: 3px 6px 12px rgb(129, 214, 172), 1px 8px 32px rgba(0, 0, 0, 0.23);
+        }
+        .service-3 {
+            background: #2E90E5;
+            box-shadow: 3px 6px 12px rgb(129, 173, 211), 1px 8px 32px rgba(0, 0, 0, 0.23);
+        }
+        .service-4 {
+            background: #DA14E1;
+            box-shadow: 3px 6px 12px rgb(206, 155, 208), 1px 8px 32px rgba(0, 0, 0, 0.23);
+        }
+    }
+}

@@ -1,0 +1,26 @@
+h6,
+p {
+    margin: 0px;
+}
+
+.unlink{
+    text-decoration: unset;
+}
+
+img {
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+}
+
+.tech-item {
+    min-height: 146px;
+    max-width: 164px;
+    min-width: 164px;
+}
+
+@media screen and (max-width: 599px) {
+    .tech-item {
+        max-width: unset !important;
+    }
+}

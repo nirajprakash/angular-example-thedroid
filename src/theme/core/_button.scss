@@ -1,0 +1,83 @@
+$primary:  #FF6A6A;
+$secondary: #E12424;
+.tdw-btn {
+    font-size: 14px;
+    display: inline-block;
+    min-width: 88px;
+    padding: 6px 14px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    border:0;
+    border-radius: 2px;
+    background: $secondary;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 
+                0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+                0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    color:#fff;
+    outline:0;
+    &:focus {
+      background: darken($secondary, 12%)  
+    }
+  }
+  
+
+  
+  /*
+   Ripple
+  */
+  .tdw-btn-ripple {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .tdw-btn-ripple:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 120px;
+    height: 120px;
+    margin-left: -60px;
+    margin-top: -60px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 100%;
+    transform: scale(0);
+  }
+  
+  @keyframes tdw-btn-ripple {
+    0% {
+      transform: scale(0);
+    }
+    20% {
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1);
+    }
+  }
+  
+  .tdw-btn-ripple:not(:active):after {
+    animation: tdw-btn-ripple 0.6s ease-out;
+  }
+  
+  .tdw-btn-ripple:after {
+    visibility: hidden;
+  }
+  
+  .tdw-btn-ripple:focus:after {
+    visibility: visible;
+  }
+  
+  
+
+
+  // 3D Shining button
+
+  

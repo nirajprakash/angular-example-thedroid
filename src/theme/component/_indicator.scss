@@ -1,0 +1,18 @@
+.tdw-indicator-left{
+    position: relative;    
+    &:before {
+    transition: all .25s ease;
+    background: $mdc-theme-primary;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -96px;
+    width: 80px;
+    height: 2px;
+  }
+  &:hover{
+      &:before{
+        width: 48px;
+      }
+  }
+}

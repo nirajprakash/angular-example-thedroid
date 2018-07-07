@@ -1,0 +1,116 @@
+:host {
+    overflow: hidden;
+}
+
+.top-image {
+    // width: 684px;
+    // top: 20%;
+    // right: 30%;
+    // transform: translate(25%, 35%) ; 
+    img {
+        max-height: 100%;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        filter: drop-shadow(0 3px 7px rgba(128, 128, 128, 0.3));
+    }
+}
+
+$resL: 991px;
+$resS: 660px;
+@media (max-width: $resL) {
+    .top-image {
+        height: unset;
+        width: 70%;
+        position: relative;
+    }
+}
+
+@media (max-width: $resS) {
+    .top-image {
+        height: unset;
+        width: 100%;
+        position: relative;
+    }
+}
+
+.left-circle {
+    width: 50vw;
+    height: 50vw;
+    top: 32%;
+    border-radius: 50%;
+    animation: scale 8s -2s ease-in infinite;
+    left: -20%;
+}
+
+.left-circle1 {
+    width: 60vw;
+    height: 60vw;
+    top: 35%;
+    border-radius: 50%;
+    animation: scale 8s -6s ease-out infinite;
+    left: -15%;
+}
+
+.left-circle2 {
+    width: 70vw;
+    height: 70vw;
+    top: 60%;
+    border-radius: 50%;
+    animation: scale 8s -12s ease-out infinite;
+    left: -5%;
+}
+
+.right-circle {
+    width: 65vw;
+    height: 65vw;
+    bottom: 30%;
+    border-radius: 50%;
+    animation: scale 10s -2s ease-in infinite;
+    right: -15%;
+}
+
+.right-circle1 {
+    width: 67vw;
+    height: 67vw;
+    bottom: 40%;
+    border-radius: 50%;
+    animation: scale 10s -6s ease-out infinite;
+    right: -15%;
+}
+
+.right-circle2 {
+    width: 74vw;
+    height: 74vw;
+    bottom: 50%;
+    animation: scale 10s -10s ease-out infinite;
+    border-radius: 50%;
+    right: -15%;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1) translate(0, 0); // rotateZ(0deg) rotateX(60deg);
+    }
+    30% {
+        transform: scale(1.07) translate(3%, 0);
+    }
+    50% {
+        transform: scale(1.1) translate(3%, 3%);
+    }
+    80% {
+        transform: scale(1.03) translate(-2%, 0%);
+    } // 90% {
+    //     transform: scale(0.98);
+    // }
+    100% {
+        transform: scale(1) translate(0, 0);
+    }
+}
+
+p,
+h1,
+h2,
+h6 {
+    margin: 0;
+}

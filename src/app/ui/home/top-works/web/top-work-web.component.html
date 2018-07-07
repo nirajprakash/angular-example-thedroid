@@ -1,0 +1,28 @@
+<a class="unlink" href="{{_mLink}}"><div class="top-works-container tdw-position-relative">
+
+	<div fxHide.gt-xs="true">
+		<div class="tdw-padding-bottom-12" fxFlex fxLayout="column">
+			<div class="tdw-padding-12"></div>
+			<p class="tdw-font-18 tdw-padding-v-4 mdc-color-text--grey-800">{{_mProjectTitleField}} </p>
+			<p class="tdw-font-16 tdw-font-normal mdc-color-text--grey-500">{{_mProjectSubTitleField}}</p>
+		</div>
+	</div>
+
+	<div class="top-works-container-inner tdw-padding-24 tdw-hover-down" 
+	[ngClass]="[_mClassBackgroundColor]">
+			<img src="{{_mImagePath}}">
+	</div>
+
+
+	<div fxHide.xs="true" class="label">
+		<div class="" fxFlex fxLayout="column">
+			<div class="tdw-padding-12"></div>
+			<p class="tdw-font-18 tdw-padding-v-4 mdc-color-text--grey-800">{{_mProjectTitleField}} </p>
+			<p class="tdw-font-16 tdw-font-normal mdc-color-text--grey-500">{{_mProjectSubTitleField}}</p>
+		</div>
+		<!-- <div class="marker tdw-padding-h-24">
+			<mdc-icon class=" tdw-text-align-right tdw-font-28 mdc-color-text--grey-600">arrow_forward</mdc-icon>
+		</div> -->
+	</div>
+</div>
+</a>

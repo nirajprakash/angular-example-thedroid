@@ -1,0 +1,196 @@
+h1,
+h6,
+p,
+span {
+    margin: 0;
+}
+
+.sec-title {
+    position: relative;
+    .title {
+        top: 10%;
+        right: 0%;
+        transform: translate(0, 50%);
+        margin: auto;
+        position: absolute;
+    }
+    .title-background {
+        z-index: -1;
+        font-size: 50px;
+    }
+}
+
+.mockup {
+    position: relative;
+    max-width: 520px;
+    img {
+        position: relative;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        max-height: 100%;
+    }
+}
+
+.title-background {
+    bottom: 0;
+}
+
+.xpedi-content {
+    max-width: 362px;
+}
+
+.line-art {
+    height: 2px;
+    width: 120px;
+    .line {
+        height: 100%;
+        widows: 100%;
+    }
+    .box {
+        height: 100%;
+        top: 0;
+        width: 8px;
+    }
+}
+
+@keyframes line-box {
+    0% {
+        transform: translate(30%, 0); // rotateZ(0deg) rotateX(60deg);
+    }
+    70% {
+        transform: translate(100%, 0);
+    }
+    71% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(100%, 0%);
+    } // 90% {
+    //     transform: scale(0.98);
+    // }
+    100% {
+        transform: scale(1) translate(0, 0);
+    }
+}
+
+.hr-line {
+    position: relative;
+    height: 1px;
+    width: 120px;
+    .line-red {
+        width: 120px;
+        height: 1px; // transform: translate(0, -50%);
+        // margin: auto;
+        // position: absolute;
+        display: flex;
+        justify-content: center;
+        align-content: center; // vertical-align: middle;
+        stroke-dasharray: 60 10 50 10 60 10 50; //  stroke-dashoffset: 800;
+        animation: draw1 5s linear infinite;
+    }
+    @keyframes draw1 {
+        0%,
+        100% {
+            opacity: 0;
+            stroke-dashoffset: 130;
+        }
+        5% {
+            opacity: 1;
+        }
+        50% {
+            stroke-dashoffset: 70;
+        }
+        95% {
+            opacity: 1;
+            stroke-dashoffset: 5;
+        }
+        99% {
+            opacity: 0;
+            stroke-dashoffset: 0;
+        }
+    }
+}
+
+$resXXL: 1280px;
+$resXL: 1170px;
+$resL: 991px;
+$resM: 768px;
+$resS: 599px;
+$resXS: 500px;
+$resXXS: 435px;
+$resMin: 320px;
+@media screen and (min-width: $resL) {}
+
+@media screen and (max-width: $resL) {}
+
+@media screen and (min-width: $resM) {}
+
+@media screen and (max-width: $resM) {}
+
+@media screen and (max-width: $resS) {
+    .mockup {
+        height: 400px;
+        text-align: center;
+        img {
+            margin: auto;
+        }
+    }
+}
+
+// .xpedi-desc {
+//     height: 500px;
+//     .xpedi-mobile-view {
+//         position: relative;
+//         width: 336px;
+//         height: 362px;
+//         background-color: white;
+//         box-shadow: 0 0 22px 0 rgba(128, 128, 128, 0.3);
+//         .background {
+//             position: absolute;
+//             width: 336px;
+//             height: 362px;
+//             top: -50px;
+//             left: -131px;
+//             box-shadow: 0 6px 22px 1px rgba(249, 107, 23, 0.2);
+//             background-color: rgba($color: #F96B17, $alpha: 0.7);
+//             img {
+//                 position: absolute;
+//                 width: 560px;
+//                 height: 542px;
+//                 top: -160px;
+//                 right: -211px;
+//                 z-index: 1;
+//             }
+//         }
+//     }
+// }
+// .xpedi-discussion {
+//     position: relative;
+//     width: 100%;
+//     height: 380px;
+//     z-index: 1;
+//     box-shadow: 0 6px 8px 0px rgba(249, 107, 23, 0.2);
+//     .xpedi-discussion-inner {
+//         position: relative;
+//         width: 1188px;
+//         .discussion-title {
+//             width: 246px;
+//             height: 362px;
+//         }
+//         .discussion-image {
+//             position: absolute;
+//             width: 594px;
+//             height: 346px;
+//             top: 198px;
+//             right: 198px;
+//             box-shadow: 0 3px 7px 1px rgba(128, 128, 128, 0.3);
+//             img {
+//                 position: relative;
+//                 width: inherit;
+//                 height: inherit;
+//                 z-index: 1;
+//             }
+//         }
+//     }
+// }

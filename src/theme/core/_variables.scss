@@ -1,0 +1,76 @@
+$resXC:900px;
+$resXD:951px;
+
+$resXXL: 1280px;
+$resXL: 1170px;
+$resL: 991px;
+$resM: 768px;
+$resS: 660px;
+$resXS: 500px;
+$resXXS: 435px;
+$resMin: 320px;
+
+
+$assets-root: 'assets/';
+$images-root: $assets-root + 'img/';
+$fonts-root: $assets-root + 'fonts/';
+
+$font-thin: 100;
+$font-lightest:200;
+$font-light: 300;
+$font-normal: 400;
+$font-medium: 500;
+$font-bold: 600;
+$font-bolder: 700;
+$font-ultraBold: 900;
+
+// /*
+// $np-color-primary : unquote("rgb(#{$color-primary})") !default;
+
+// $np-color-primary-alpha-6 : unquote("rgba(#{$color-primary},0.6)") !default;
+// $np-color-primary-dark : unquote("rgb(#{$color-primary-dark})") !default;
+// $np-color-primary-light:  unquote("rgba(#{$color-primary},0.6)") !default;
+// $np-color-primary-50 : white !default;
+// $np-color-back-grey : #dfdfdf !default;
+// $np-color-grey-default: $list-supporting-text-text-color;
+// $np-color-grey-dark: $default-item-text-color;
+// $np-color-grey-dark-extra:$default-item-text-color;
+// $np-color-accent : unquote("rgb(#{$color-accent})") !default;
+
+// */
+$font-6: 6px;
+$font-7: 7px;
+$font-8: 8px;
+$font-9: 9px;
+$font-10: 10px;
+$font-11:  11px;
+$font-12: 12px;
+$font-13: 13px;
+$font-14: 14px;
+$font-16: 16px;
+$font-18: 18px;
+$font-20: 20px;
+$font-22: 22px;
+$font-24: 24px;
+$font-26: 26px;
+$font-28: 28px;
+$font-30: 30px;
+$font-32: 32px;
+$font-34: 34px;
+$font-36: 36px;
+$font-38: 38px;
+$font-40: 40px;
+$font-48: 48px;
+$font-106: 106px;
+
+$font-open-sans: 'Open Sans', 'sans-serif';
+$font-comfortaa: 'Comfortaa', cursive;
+$font-noto-serif: 'Noto Serif';
+$font-Roboto: 'Roboto', sans-serif;
+// $font-Sedgwick-Ave:'Sedgwick-Ave','cursive';
+$font-avenir:'avenir';
+$font-helvetica-neue:'helvetica-neue';
+$font-rubik:'Rubik', sans-serif;
+$font-roboto-mono:'Roboto Mono', monospace;
+
+$font-work-sans: 'Work Sans', sans-serif;

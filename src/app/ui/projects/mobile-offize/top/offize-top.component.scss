@@ -1,0 +1,118 @@
+
+
+.background-image {}
+
+.top-cover {
+    width: 100vw;
+    height: 115%;
+    top: 0;
+    right: 50%;
+    background: #a0a0a0 url('../../../../../assets/img/mobile-offize_background.jpg') center center no-repeat;
+    background-size: cover;
+}
+.top-cover-white {
+    width: 100vw;
+    height: 115%;
+    top: 0;
+    left: 50%;
+}
+
+.box{
+    min-height: 164px;
+}
+
+
+
+
+
+$resXXL: 1280px;
+$resXL: 1170px;
+$resL: 991px;
+$resM: 768px;
+$resS: 599px;
+$resXS: 500px;
+$resXXS: 435px;
+$resMin: 320px;
+
+
+@media screen and (min-width: $resL) {
+    .frame {
+        max-width: 400px;
+    }
+
+    .content-box {
+        width: 100%;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: $resL) {
+    .frame {
+        max-width: 320px;
+    }
+
+    .content-box {
+        width: 100%;
+    }
+    
+}
+
+
+@media screen and (min-width: $resM) {
+  
+
+    .content-area {
+        z-index: 1;
+        max-width: 340px;
+    }
+
+    .box{
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: $resM) {
+    .app-img {       
+        // height: 300px; 
+        width: 264px; // border-radius: 400px;
+    }
+
+    .content-area {
+        z-index: 1;
+        max-width: 240px;
+    }
+
+    .box{
+        max-width: 156px;
+        min-height: 128px;
+    }
+
+
+}
+
+@media screen and (max-width: $resS) {
+    .app-img {       
+        // height: 300px; 
+        width: 264px; // border-radius: 400px;
+    }
+
+    .content-area {
+        z-index: 1;
+        max-width: unset;
+    }
+
+    .frame {
+        margin: auto;
+        width: 100%;
+    }
+
+    .box{
+        max-width: unset;
+        min-height: unset;
+    }
+
+
+
+}

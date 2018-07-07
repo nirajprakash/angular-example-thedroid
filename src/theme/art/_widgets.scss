@@ -1,0 +1,22 @@
+.stepper-indicator {
+    position: relative;
+    border: solid 4px #4CAF50;
+    background: #fff;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    content: "";
+   
+}
+
+.active .stepper-indicator{
+    position: relative;
+    border: solid 4px #F96B17;
+    background: #F96B17;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    content: "";
+
+}
+

@@ -1,0 +1,137 @@
+
+p{
+  margin: 0px;
+}
+.router-end{
+  padding-left: 12px;
+  margin: auto 0;
+}
+
+.toolbar-profile{
+  margin: auto;
+}
+.demo-toolbar-logo{
+  padding: 0px;
+  margin: auto 0;
+}
+
+.divider-verticle{
+  width: 1px;
+  height: 32px;
+  margin: auto 0;
+}
+
+.logo-container{
+  // height: 40px;
+  // position: relative;
+  // width: 128px;
+  // overflow: hidden;
+  // img{
+  //   position: absolute;
+  //   left: 50%;
+  //   top: 50%;
+  //   height: 100%;
+  //   width: auto;
+  //   transform: translate(-50%,-50%) scale(4,4);
+  // }
+}
+
+.toolbar-avatar{
+  
+  img{
+  border-radius: 40px;
+  }
+}
+.container {
+  position: absolute;
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  //TODO future height: calc(100% - 64px);
+}
+.demo-content {
+  //margin-left: 240px;
+  margin-right: 0px;
+  overflow-x: auto;
+  //width: -240px;
+  width: 100%;
+  right: 0;
+  height: 100%;
+  display: block;
+  left: 0;
+
+  @media (max-width: 991px) {
+    width: 100%;
+    //margin-left: 0px;
+  }
+}
+
+// .mdc-permanent-drawer--fixed{
+//   box-shadow: none;
+//   border-right: none;
+// }
+.tdw-font-12{
+  font-size: 12px;
+}
+
+.tdw-font-light {
+  font-weight: 300;
+}
+.mdc-toolbar{
+  background-color: white;
+}
+.mdc-list-item{
+  padding: 0px 40px;
+}
+.drawer-item-title{
+  margin: 12px 0 0;
+  padding: 0 20px;
+}
+.mdc-permanent-drawer{
+
+.mdc-list-item{
+  font-weight: 400;
+  font-size: 0.85rem;
+
+}
+}
+
+.mdc-permanent-drawer--fixed::-webkit-scrollbar {
+  background: transparent;
+  width: 8px;
+}
+
+.mdc-permanent-drawer--fixed::-webkit-scrollbar-thumb {
+background: #bdbdbd;
+}
+
+.mdc-drawer--temporary .mdc-drawer__content{
+  //margin-top: 64px;
+  background-color: white;
+  box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+}
+
+// .mdc-list-item{
+//   border-bottom: solid 1px rgba($color: #000000, $alpha: 0.1);
+// }
+
+// .notification-area{
+//   width: 36px;
+//   height: 36px;
+// }
+.notification-icon-container{
+  position: relative;
+}
+.notificaton{
+  .mdc-simple-menu {
+  max-height: 300px !important;
+ }
+  .mdc-list-item {
+  padding: 0px 40px 0 0;
+  }
+}
+.mdc-toolbar {
+  // background-color: #440202;
+  background-color: #E5E5E5; 
+}

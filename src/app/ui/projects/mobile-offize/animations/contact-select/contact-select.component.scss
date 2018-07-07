@@ -1,0 +1,82 @@
+h1,
+h6,
+p {
+    margin: 0;
+}
+.chat-container {
+    max-width: 338px;
+    height: 326px;
+}
+.description {
+    width: 232px;
+}
+
+
+.video-container {
+    position: relative;
+    width: 247px;
+    height: 440px;
+    video {
+        max-height: 100%;
+        max-width: 100%;
+        min-height: 264px;
+        height: auto;
+        width: auto;
+    }
+    .action-dismiss {
+        z-index: 1;
+        padding: 4px;
+        background: rgba(0, 0, 0, 0.2);
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    video::-internal-media-controls-download-button {
+        display: none;
+    }
+    video::-webkit-media-controls-fullscreen-button {
+        display: none;
+    }
+    video::-webkit-media-controls-enclosure {
+        overflow: hidden;
+    }
+    video::-webkit-media-controls-panel {
+        width: calc(100% + 30px);
+        display: none;
+        /* Adjust as needed */
+    }
+
+}
+
+$resXXL: 1280px;
+$resXL: 1170px;
+$resL: 991px;
+$resM: 768px;
+$resS: 599px;
+$resXS: 500px;
+$resXXS: 435px;
+$resMin: 320px;
+@media screen and (min-width: $resL) {
+    .description {
+        width: 232px;
+    }
+}
+
+@media screen and (max-width: $resL) {
+    .description {
+        width: 320px;
+    }
+}
+
+
+@media screen and (max-width: $resM) {
+    .description {
+        width: 212px;
+    }
+}
+
+@media screen and (max-width: $resS) {
+    .description {
+        width: unset;
+    }
+}

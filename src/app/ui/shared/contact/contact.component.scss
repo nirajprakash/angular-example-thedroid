@@ -1,0 +1,27 @@
+.explore-btn {
+    z-index: 2;
+    text-decoration: unset;
+    border-radius: 4px;
+    padding: 8px 28px;
+}
+
+.agm-map-content {
+    display: none;
+}
+
+.map-card {
+    min-height: 320px;
+}
+
+agm-map {
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    right: 0;
+    top: 0;
+    border-top-right-radius: 4px;
+    width: 120px;
+    height: 240px;
+}

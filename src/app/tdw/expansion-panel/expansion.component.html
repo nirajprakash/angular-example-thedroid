@@ -1,0 +1,13 @@
+<section>
+    <header [class.expansion-collapsible]="sectionCollapsible" class="expansion-header" *ngIf="headerComp || sectionTitle">
+        <div class="expansion-toggle">
+            <mdc-icon-toggle (click)="onSectionClicked()" [on]="!_isToggleCollapsed" iconOn="expand_less" iconOff="expand_more" labelOn="collapse"
+                labelOff="expand"></mdc-icon-toggle>
+        </div>
+        <ng-content select="tdw-expansion-header"></ng-content>
+        <h1 *ngIf="sectionTitle" [innerHTML]="sectionTitle"></h1>
+    </header>
+    <div class="expansion-content" [style.padding]="padding" *ngIf="!_isCollapsed">
+        <ng-content></ng-content>
+    </div>
+</section>

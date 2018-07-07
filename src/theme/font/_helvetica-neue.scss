@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('#{$fonts-root}HelveticaNeueLTStd-Th.otf') format('truetype');
+    font-weight: 100;
+     }
+    @font-face {
+    font-family: 'HelveticaNeue';
+    src: url('#{$fonts-root}HelveticaNeueLTStd-Lt.otf') format('truetype');
+    font-weight: 300;
+    }
+    @font-face {
+    font-family: 'HelveticaNeue';
+    src: url('#{$fonts-root}HelveticaNeueLTStd-Md.otf') format('truetype');
+    font-weight: 400;
+     }
+  

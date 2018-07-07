@@ -1,0 +1,24 @@
+<div class="container" #container>
+    <div class="my-nav mdc-color--white mdc-elevation--z1 tdw-padding-12-20">
+        <div class="tdw-padding-h-16" fxLayout="row" fxLayoutAlign="start center">
+            <a (click)="onClickBack()" class="tdw-height-24 link-home tdw-cursor-pointer">
+                <mdc-icon class="mdc-color-text--grey-600">arrow_back</mdc-icon>
+            </a>
+            <span class="tdw-font-22 tdw-padding-left-20 mdc-color-text--grey-800">{{_mRoute}}</span>
+            <div fxFlex></div>
+            <!-- <a href="home" class="explore-btn mdc-color-text--grey-800 tdw-font-14 tdw-font-comfortaa">About</a> -->
+            <!-- <a href="listing" class="explore-btn tdw-hover-button-primary tdw-font-14 tdw-font-comfortaa">Req quote</a> -->
+            <div class="tdw-padding-h-8"></div>
+
+        </div>
+    </div>
+
+    <!-- <div class="demo-content"> -->
+    <router-outlet></router-outlet>
+    <!-- </div> -->
+    <div class="tdw-line"></div>
+    <contact-new-view></contact-new-view>
+    <section class="footer">
+        <footer-view></footer-view>
+    </section>
+</div>

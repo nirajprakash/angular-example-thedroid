@@ -1,0 +1,63 @@
+h1,
+h6,
+p {
+    margin: 0;
+}
+
+// .task-swipe-container{
+//     width: 264px;
+// }
+// .swipe-bar{
+//     // height: 10px;
+//     min-width: 232px;
+// }
+.tdw-padding-13-26 {
+    padding: 13px 26px;
+}
+
+.description {
+    width: 232px;
+}
+
+$resXXL: 1280px;
+$resXL: 1170px;
+$resL: 991px;
+$resM: 768px;
+$resS: 599px;
+$resXS: 500px;
+$resXXS: 435px;
+$resMin: 320px;
+@media screen and (min-width: $resL) {
+    .description {
+        width: 232px;
+    }
+}
+
+@media screen and (max-width: $resL) {
+    .description {
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: $resM) {
+    .swipe-bar {
+        // height: 10px;
+        min-width: 232px;
+    }
+}
+
+@media screen and (max-width: $resM) {
+    .swipe-bar {
+        // height: 10px;
+        min-width: unset;
+    }
+    .description {
+        width: 212px;
+    }
+}
+
+@media screen and (max-width: $resS) {
+    .description {
+        width: unset;
+    }
+}

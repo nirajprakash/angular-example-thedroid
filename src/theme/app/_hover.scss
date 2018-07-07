@@ -1,0 +1,132 @@
+// .tdw-hover-button-primary{
+//     cursor: pointer; 
+//     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+//     color: white;
+//     box-shadow: 0px 4px 8px -4px  rgba($color: $mat-theme-primary, $alpha: 0.7),  0px 8px 16px -6px rgba($color: $mat-theme-primary, $alpha: 0.6);
+//     background-color: $mat-theme-primary;
+//     &:hover{
+//         box-shadow: 0px 6px 10px -4px  rgba($color: $mat-theme-primary, $alpha: 0.7),  0px 10px 20px -6px rgba($color: $mat-theme-primary, $alpha: 0.6);
+    
+//     }
+//     &:active{
+//         box-shadow: 0px 0px 4px -4px rgba($color: $mat-theme-primary, $alpha: 0.5), 0px 2px 12px -6px rgba($color: $mat-theme-primary, $alpha: 0.3);
+   
+//     }
+// }
+
+
+
+// .tdw-hover-button-secondary{
+//     cursor: pointer; 
+//     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+//     color: white !important;
+//     box-shadow: 0px 3px 6px -3px  rgba($color: $mat-theme-secondary, $alpha: 0.7),  0px 6px 12px -6px rgba($color: $mat-theme-secondary, $alpha: 0.6) !important;
+//     background-color: $mat-theme-secondary !important;
+//     &:hover{
+//         box-shadow: 0px 4px 8px -3px  rgba($color: $mat-theme-secondary, $alpha: 0.7),  0px 8px 16px -4px rgba($color: $mat-theme-secondary, $alpha: 0.6) !important;
+    
+//     }
+//     &:active{
+//        box-shadow: 0px 6px 10px -4px  rgba($color: $mat-theme-secondary, $alpha: 0.7),  0px 12px 20px -6px rgba($color: $mat-theme-secondary, $alpha: 0.6) !important;
+    
+//     }
+// }
+
+
+// .tdw-hover-button{
+//     cursor: pointer; 
+//     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+//     box-shadow: 0px 4px 8px -4px  rgba($color: map-get($mat-grey, 800), $alpha: 0.3), 
+//      0px 8px 16px -6px rgba($color: map-get($mat-grey, 800), $alpha: 0.2);
+//     &:hover{
+//         box-shadow: 0px 6px 10px -4px  rgba($color: map-get($mat-grey, 800), $alpha: 0.3),  0px 10px 20px -6px rgba($color: map-get($mat-grey, 800), $alpha: 0.2);
+    
+//     }
+//     &:active{
+//         box-shadow: 0px 0px 4px -4px rgba($color: map-get($mat-grey, 800), $alpha: 0.2), 0px 2px 12px -6px rgba($color: map-get($mat-grey, 800), $alpha: 0.1);
+   
+//     }
+// }
+
+
+.app-button-fancymonk{
+    cursor: pointer; 
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    color: white !important;
+    box-shadow: 0px 4px 8px -4px  rgba($color: $app-color-fancymonk, $alpha: 0.7),  0px 8px 16px -6px rgba($color: $app-color-fancymonk, $alpha: 0.6);
+    background-color: $app-color-fancymonk !important;
+    &:hover{
+        box-shadow: 0px 6px 10px -4px  rgba($color: $app-color-fancymonk, $alpha: 0.7),  0px 10px 20px -6px rgba($color: $app-color-fancymonk, $alpha: 0.6);
+    
+    }
+    &:active{
+        box-shadow: 0px 0px 4px -4px rgba($color: $app-color-fancymonk, $alpha: 0.5), 0px 2px 12px -6px rgba($color: $app-color-fancymonk, $alpha: 0.3);
+   
+    }
+}
+
+.app-button-sensify{
+    cursor: pointer; 
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    color: white !important;
+    box-shadow: 0px 4px 8px -4px  rgba($color: $app-color-sensify, $alpha: 0.7),  0px 8px 16px -6px rgba($color: $app-color-sensify, $alpha: 0.6);
+    background-color: $app-color-sensify !important;
+    &:hover{
+        box-shadow: 0px 6px 10px -4px  rgba($color: $app-color-sensify, $alpha: 0.7),  0px 10px 20px -6px rgba($color: $app-color-sensify, $alpha: 0.6);
+    
+    }
+    &:active{
+        box-shadow: 0px 0px 4px -4px rgba($color: $app-color-sensify, $alpha: 0.5), 0px 2px 12px -6px rgba($color: $app-color-sensify, $alpha: 0.3);
+   
+    }
+}
+
+
+
+.app-button-pepstudy{
+    cursor: pointer; 
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    color: white !important;
+    box-shadow: 0px 4px 8px -4px  rgba($color: $app-color-pepstudy, $alpha: 0.7),  0px 8px 16px -6px rgba($color: $app-color-pepstudy, $alpha: 0.6);
+    background-color: $app-color-pepstudy !important;
+    &:hover{
+        box-shadow: 0px 6px 10px -4px  rgba($color: $app-color-pepstudy, $alpha: 0.7),  0px 10px 20px -6px rgba($color: $app-color-pepstudy, $alpha: 0.6);
+    
+    }
+    &:active{
+        box-shadow: 0px 0px 4px -4px rgba($color: $app-color-pepstudy, $alpha: 0.5), 0px 2px 12px -6px rgba($color: $app-color-pepstudy, $alpha: 0.3);
+   
+    }
+}
+
+.app-button-mobile-offize{
+    cursor: pointer; 
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    color: white !important;
+    box-shadow: 0px 4px 8px -4px  rgba($color: $app-color-mobile-offize, $alpha: 0.7),  0px 8px 16px -6px rgba($color: $app-color-mobile-offize, $alpha: 0.6);
+    background-color: $app-color-mobile-offize !important;
+    &:hover{
+        box-shadow: 0px 6px 10px -4px  rgba($color: $app-color-mobile-offize, $alpha: 0.7),  0px 10px 20px -6px rgba($color: $app-color-mobile-offize, $alpha: 0.6);
+    
+    }
+    &:active{
+        box-shadow: 0px 0px 4px -4px rgba($color: $app-color-mobile-offize, $alpha: 0.5), 0px 2px 12px -6px rgba($color: $app-color-mobile-offize, $alpha: 0.3);
+   
+    }
+}
+
+.app-button-intugine{
+    cursor: pointer; 
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    color: white !important;
+    box-shadow: 0px 4px 8px -4px  rgba($color: $app-color-intugine, $alpha: 0.7),  0px 8px 16px -6px rgba($color: $app-color-intugine, $alpha: 0.6);
+    background-color: $app-color-intugine !important;
+    &:hover{
+        box-shadow: 0px 6px 10px -4px  rgba($color: $app-color-intugine, $alpha: 0.7),  0px 10px 20px -6px rgba($color: $app-color-intugine, $alpha: 0.6);
+    
+    }
+    &:active{
+        box-shadow: 0px 0px 4px -4px rgba($color: $app-color-intugine, $alpha: 0.5), 0px 2px 12px -6px rgba($color: $app-color-intugine, $alpha: 0.3);
+   
+    }
+}

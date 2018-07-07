@@ -1,0 +1,9 @@
+.progress {
+    .mdc-dialog__surface {
+        min-width: unset; // max-width: 360px;
+    }
+    .mdc-dialog__body{
+        padding: 24px;
+        margin: 0;
+    }
+}

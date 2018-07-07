@@ -1,0 +1,65 @@
+<div class="listing-mobile" fxLayout="column">
+	<div ngClass.lt-md="tdw-padding-20" ngClass.gt-sm="tdw-padding-36"></div>
+	<div></div>
+	<div class="tdw-layout-container-large">
+		<div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign.gt-xs="start center" fxLayoutAlign.xs="start stretch">
+			<div class="project-desc-card" fxFlex.xs="none" fxFlex.gt-xs>
+				<!-- <div class="project-title" fxLayout="row" fxLayoutAlign="start center">
+
+				<span class="tdw-font-28 tdw-padding-left-16 mdc-color-text--grey-800"></span>
+			</div> -->
+
+				<div class="tdw-padding-right-36 sec-title tdw-position-relative">
+					<div class="title tdw-position-absolute">
+						<h6 class="title-shadow tdw-font-medium tdw-font-20">{{_mProjectTitle}}</h6>
+					</div>
+					<div class="title-background tdw-position-relative">
+						<h1 class="tdw-font-56 tdw-font-Roboto mdc-color-text--grey-100 tdw-font-bold">{{_mProjectWord}}</h1>
+					</div>
+				</div>
+				<div class="detail">
+					<p class="tdw-padding-v-4 tdw-font-16 mdc-color-text--grey-500">{{_mProjectDetail}}</p>
+					<div class="tdw-padding-12"></div>
+					<!-- <p class="tdw-padding-v-12 tdw-font-18 mdc-color-text--grey-800">Mar 2016 - May 2017</p> -->
+					<a *ngIf="_mAppUrl" href="{{_mAppUrl}}" fxHide.xs="true" class="web-link tdw-padding-v-12">
+						<img src="assets/img/link.png" />
+					</a>
+
+					<div fxHide.xs="true" class="" fxLayout="row" fxLayoutGap="16px" fxLayoutAlign="start center">
+						<img src="{{_mIconPath}}" class="tdw-avatar-40" />
+						<a *ngIf="_mLink" href="{{_mLink}}" [ngClass]="[_mBtnBackgroundColor]" mdc-button [raised]="true" class="tdw-font-14">Know Story</a>
+						<div class="tdw-padding-4"></div>
+					</div>
+
+					<div class="tdw-padding-v-12"></div>
+
+				</div>
+			</div>
+
+			<!-- <div class="app-container"> -->
+			<div [ngClass]="_mClassCircle1" class="tdw-margin-auto app-img tdw-position-relative tdw-text-align-center tdw-card-up-large">
+
+				<div [ngClass]="_mClassCircle2" class="background tdw-position-absolute tdw-text-align-center tdw-card-up"></div>
+				<img class="tdw-position-relative" src="{{_mImagePath}}" />
+			</div>
+
+			<div class="project-desc-card" fxHide.gt-xs="true" fxLayout="column">
+				<div class="tdw-padding-4"></div>
+
+				<a *ngIf="_mAppUrl" href="{{_mAppUrl}}" class="web-link tdw-padding-v-12">
+					<img src="assets/img/link.png" />
+				</a>
+
+				<div class="" fxLayout="row" fxLayoutGap="16px" fxLayoutAlign="start center">
+					<img src="{{_mIconPath}}" class="tdw-avatar-40" />
+					<a *ngIf="_mLink" href="{{_mLink}}" [ngClass]="[_mBtnBackgroundColor]" mdc-button [raised]="true" class="tdw-font-14">Know Story</a>
+					<div class="tdw-padding-4"></div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="tdw-padding-20"></div>
+
+</div>

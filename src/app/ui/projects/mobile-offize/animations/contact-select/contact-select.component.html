@@ -1,0 +1,30 @@
+<div class="tdw-layout-content">
+    <div class="" fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center center">
+        <div class="video-container" [ngStyle.lt-md]="{'order': 3}">
+            <vg-player>
+                <vg-overlay-play></vg-overlay-play>
+                <!-- <vg-buffering></vg-buffering> -->
+                <!-- <vg-controls [vgAutohide]="true"></vg-controls> -->
+                <video [vgMedia]="media" #media preload="auto" controls>
+                    <source src="https://firebasestorage.googleapis.com/v0/b/thedroid-835ee.appspot.com/o/app-develop%2Fcontact-select-final.mp4?alt=media&token=8163e4e6-7b56-4517-9c91-e228e45b69cf"
+                        type="video/mp4">
+                </video>
+            </vg-player>
+        </div>
+        <div class="tdw-padding-v-12" [ngStyle.lt-md]="{'order': 2}"></div>
+        <div class="tdw-padding-h-12"></div>
+        <div fxFlex.gt-sm fxFlex.lt-md="none"  ></div>
+        <div fxFlex.gt-xs fxFlex.xs="none" fxLayout="column" fxLayoutAlign.xs="start center" fxLayoutAlign.lt-md="center end"  [ngStyle.lt-md]="{'order': 1}">
+
+            <div class="description mdc-color--white tdw-padding-36 tdw-card-up">
+                <div class="tdw-padding-12"></div>
+                <p class="tdw-padding-v-24 tdw-font-20 tdw-font-bold tdw-text-shadow-normal tdw-text-align-left">Conatct Select</p>
+                <div class="tdw-padding-12"></div>
+                <span class="mdc-color-text--grey-600 tdw-font-open-sans">Flip Animation for selected Contact</span>
+                <div class="tdw-padding-24"></div>
+
+
+            </div>
+        </div>
+    </div>
+</div>

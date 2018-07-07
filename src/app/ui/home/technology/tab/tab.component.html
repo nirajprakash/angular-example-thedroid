@@ -1,0 +1,18 @@
+<div class="all-tabs"
+fxLayout="row wrap">
+    <button (click)="onClicked('android')" [class.tdw-card-thin]="_mActiveAndroid === true" [class.mdc-color-text--white]="_mActiveAndroid === true" [class.mdc-color--green-500]="_mActiveAndroid === true"  [class.mdc-color-text--green-500]="_mActiveAndroid === false"  mdc-button [dense]="true" [raised]="_mActiveAndroid" class="tab tdw-card-thin mdc-color--green-500">
+        android
+    </button>
+    <div class="tdw-padding-8"></div>
+    <button (click)="onClicked('web')" [class.tdw-card-thin]="_mActiveWeb === true" [class.mdc-color-text--white]="_mActiveWeb === true" [class.app-color--blue]="_mActiveWeb === true"  [class.app-color-text--blue]="_mActiveWeb === false" mdc-button [dense]="true" [raised]="_mActiveWeb" class="tab  mdc-color-text--blue-500">
+        web
+    </button>
+    <div class="tdw-padding-8"></div>
+    <button (click)="onClicked('backend')" [class.tdw-card-thin]="_mActiveBackend === true" [class.mdc-color-text--white]="_mActiveBackend === true" [class.app-color--purple]="_mActiveBackend === true"  [class.app-color-text--purple]="_mActiveBackend === false" mdc-button [dense]="true" [raised]="_mActiveBackend" class="tab">
+        backend
+    </button>
+    <div class="tdw-padding-8"></div>
+    <button (click)="onClicked('design')" [class.tdw-card-thin]="_mActiveDesign === true" [class.mdc-color-text--white]="_mActiveDesign === true"  [class.app-color--red]="_mActiveDesign === true"  [class.mdc-theme--primary]="_mActiveDesign === false" mdc-button [dense]="true" [raised]="_mActiveDesign" class="tab">
+        <span [class.mdc-color-text--white]="_mActiveDesign === true"  [class.app-color-text--red]="_mActiveDesign === false" class="" >UI/</span>UX
+    </button>
+</div>

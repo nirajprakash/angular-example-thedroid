@@ -1,0 +1,89 @@
+.content-box-bound{
+    width: 274px;
+    height: 320px;
+    
+}
+
+.top-container {
+    height: 690px; // overflow: hidden;
+    .background-image {
+        width: 100%;
+        height: inherit;
+        top: 0;
+        object-fit: cover;
+        img {
+            position: relative;
+            width: inherit;
+            height: inherit;
+            z-index: -1;
+        }
+    }
+    .content-box {
+        transform: translate(0%, 40%);
+        top: 0;
+        z-index: 1;
+        .quote {
+            right: -138px;
+            top: 129px;
+            max-width: 405px;
+            overflow: visible;
+            span {
+                text-shadow: 1px 0px 1px #7f7f7f;
+            }
+        }
+        .button {
+            display: inline-block;
+            padding: 0px 46px;
+            width: auto;
+            background: none;
+            overflow: visible;
+            font-size: 14px;
+            line-height: 30px;
+            letter-spacing: 1px;
+            text-decoration: none;
+            white-space: nowrap;
+            border-radius: 4px;
+            border: 1px solid #3e6e6e;
+            color: white;
+            cursor: pointer;
+            outline: none;
+            border-color: white;
+            opacity: .9;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+    .mockup {
+        left: -332px;
+        width: 666px;
+        img {
+            position: relative;
+            max-width: 100%;
+            width: inherit;
+            height: inherit;
+            max-height: 100%;
+        }
+    }
+    .background-white {
+        width: 30vw;
+        height: inherit;
+        right: 0;
+        top: 0;
+        background-color: white;
+        z-index: 0;
+    }
+    .bottom-box {
+        width: 34vw;
+        transform: translate(-2%, 237%);
+        top: 0;
+        z-index: 3;
+    }
+    .box {
+        width: 230px;
+        height: 186px;
+        max-width: 100%;
+        text-overflow: ellipsis;
+        z-index: 3;
+    }
+}

@@ -1,0 +1,169 @@
+.line-height{
+    line-height: 1.4em;
+}
+.tdw-text-align{
+    text-align: justify;
+}
+.tdw-text-justify{
+    text-justify: inter-word;
+}
+.tdw-text-align-center{
+    text-align: center;
+}
+.tdw-text-align-right{
+    text-align: right;
+}
+.tdw-text-align-left{
+    text-align: left;
+}
+.tdw-height-full{
+    height: 100%;
+}
+
+.tdw-width-full{
+    width: 100%;
+}
+// .tdw-avatar-24{
+//     height: 24px;
+//     width: 24px;
+// }
+
+// .tdw-avatar-32{
+//     height: 32px;
+//     width: 32px;
+// }
+
+// .tdw-avatar-40{
+//     height: 40px;
+//     width: 40px;
+// } 
+// .tdw-avatar-64{
+//     height: 64px;
+//     width: 64px;
+// } 
+.tdw-circle{
+    border-radius: 500px;
+}
+    
+.tdw-layout-container-min{
+        max-width: $resXXS;
+        width: 100%;
+        margin: 0 auto;
+        flex-shrink: 0;
+}
+    
+.tdw-layout-container{
+    max-width: $resL;
+    width: 100%;
+    margin: 0 auto;
+    flex-shrink: 0;
+}
+    
+.tdw-layout-container-large{
+    max-width: $resL;
+    width: 100%;
+    margin: 0 auto;
+    flex-shrink: 0;
+}
+.tdw-layout-container-large-double-extra{
+    max-width: $resXXL;
+    width: 100%;
+    margin: 0 auto;
+    flex-shrink: 0;
+}
+.tdw-layout-container-large-extra{
+    max-width: $resXL;
+    width: 100%;
+    margin: 0 auto;
+    flex-shrink: 0;
+}
+
+.tdw-layout-container-custom{
+    max-width: $resXC;
+    width: 100%;
+    margin: 0 auto;
+    flex-shrink: 0;
+}
+
+.tdw-layout-container-custom-2{
+    max-width: $resXD;
+    width: 100%;
+    margin: 0 auto;
+    flex-shrink: 0;
+}  
+
+.tdw-layout-content{
+    padding: 48px 32px 8px 40px;
+}
+    
+@media screen and (max-width: $resXS) {
+    .tdw-layout-content {
+        padding: 56px 20px 8px 20px;
+    }
+
+}
+
+
+
+
+/***************************************************8
+                ul
+*/
+
+.np-list-vertical{
+
+    list-style: none;
+
+    li {
+        display: block;
+        line-height: 1.4;
+        margin: 2px auto; 
+    }
+}
+.tdw-layout-align-center{
+    display: flex;
+//    justify-content: center;
+   align-items: center;
+} 
+.tdw-layout-align-top{
+    vertical-align: top;
+} 
+
+.tdw-layout-align-middle{
+    vertical-align: middle;
+}
+
+
+.tdw-margin-auto-horizontal{
+    margin: 0 auto;
+}
+.tdw-margin-auto-vertical{
+    margin: auto 0;
+}
+
+.tdw-margin-auto{
+    margin: auto;
+}
+
+
+/******
+
+display-table
+*/
+
+.tdw-display-table{
+    display: table;
+}
+
+.tdw-display-table-cell{
+    display: table-cell;
+}
+
+.tdw-position-relative{
+    position: relative;
+}
+
+
+.tdw-position-absolute{
+    position: absolute;
+}

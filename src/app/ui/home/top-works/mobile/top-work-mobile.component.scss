@@ -1,0 +1,63 @@
+:host {
+    // padding: 56px 0;
+}
+
+.label {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+}
+
+.top-works-container {
+    position: relative;
+    p {
+        margin: 0;
+    }
+    .mobile-app {
+        img {
+            //width: 230px;
+            //height: 410px;
+            //z-index: 2;
+            box-shadow: 0px 14px 33px rgba(117, 117, 117, 0.25), 0 28px 42px rgba(162, 149, 149, 0.22);
+        }
+    }
+    .marker {
+        display: flex;
+        justify-content: middle;
+        align-items: center;
+    }
+}
+
+.unlink{
+    text-decoration: unset;
+}
+
+// }
+// $backColor: #666;
+// $foreColor: #465298;
+// .progress-funky {
+// 	background: repeating-linear-gradient(
+// 		-45deg,
+// 		$backColor,
+// 		$backColor 10px,
+// 		shade($backColor,10%) 10px,
+// 		shade($backColor,10%) 20px,
+// 		$backColor 20px
+// 	) top left;
+//   .current {
+//     width: 25%;
+//     animation: width 5s infinite;
+//     background: repeating-linear-gradient(
+//       -45deg,
+//       $foreColor,
+//       $foreColor 10px,
+//       shade($foreColor,10%) 10px,
+//       shade($foreColor,10%) 20px,
+//       $foreColor 20px
+//     ) top left;
+//   }
+// }
+// @keyframes width {
+//   0% { width: 0%; }
+//   100% { width: 100%; }
+// }
